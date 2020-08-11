@@ -1,0 +1,153 @@
+/* Untuk Tablet */
+@media all and (max-width: 1024px) {
+  .container-kontak {
+    width:96%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 630px;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  .header-right a {
+    line-height: 80px;
+    padding: 0 10px;
+    color: white;  
+    display:block;
+    font-size: 14px;
+    float: left;
+    text-decoration: none;
+    transition: all 0.5s;
+  }
+  .box {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .flex-kontak {
+    flex: 1;
+  }
+  .lingkaran{
+    width:80px;
+    height:80px;
+    margin: 7px;
+    background: #B0329B;
+    opacity: 0.5;
+    border-radius: 100%;
+  }
+  .container-kandungan{
+    width: 90%;
+    margin: 0 auto;
+    padding: 3px 5px;
+  }
+  .btn-wrapper {
+    margin-top:40%;
+  }
+  .container-slider{
+    width:20%;
+    margin: 0 auto;
+  }
+  .lingkaran-slider{
+    width:30px !important;
+    height:30px !important;
+    float: left;
+  }
+  .div-produk{
+    width: 98%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .card{
+    width:25%;
+    margin-left:0 auto;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 767px) {
+  .btn-wrapper{
+    margin: 0 auto;
+  }
+  .container-slider{
+    width:40%;
+    margin: 0 auto;
+  }
+  .lingkaran-slider{
+    width:30px !important;
+    height:30px !important;
+    float: left;
+    margin-left: 14px;
+  }
+  .div-produk{
+    width:90%;
+    margin:0 auto;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    width: 90%;
+  }
+  .lingkaran{
+    width: 60px;
+    height: 60px;
+    background: #B0329B;
+    opacity: 0.5;
+    border-radius: 100%;
+    float: left;
+    margin: 2px 6px;
+  }
+  .container-kandungan{
+    width: 98%;
+    padding: 5px 8px;
+    margin: 0 auto;
+  }
+
+  .featured-image {
+     width:150px;
+     object-position: center;
+     background-size: cover;
+  }
+
+  /* Tambahkan CSS untuk header-right */
+  .header-right {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+    font-size:40px;
+    line-height:20px;
+    padding: 32px 0;
+    color:#fff;
+  }
+  .header-left{
+    font-size:10px;
+    float:left;
+  }
+  .header-left h1{
+    line-height:40px;
+  }
+  .heading{
+    padding: 0;
+    margin-top:20px;
+  }
+  .container-kontak {
+    width:96%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 630px;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  .box {
+    width: 80%;
+    border-radius: 10px;
+  }
+  .flex-kontak {
+    flex: 1;
+  }
+  footer{
+    margin-top: 20px;
+  }
+  .btn-wrapper {
+    margin-top:90%;
+  }
+}
